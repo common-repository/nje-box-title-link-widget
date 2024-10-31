@@ -1,0 +1,59 @@
+/*
+Default styles for plugin nje_box_title_widget_plugin
+*/
+
+.widget_nje_box_title_link_widget {
+	margin-top: 2em;
+	padding-top: 0 !important;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+	padding-bottom: 1.5em;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+.widget_nje_box_title_link_widget h3.widget-title {
+	margin-bottom: 1em;
+	padding: .5em;
+	background-color: #000;
+	color: #fff;
+	text-transform: none;
+	font-weight: normal;
+}
+.widget_nje_box_title_link_widget .btlw-txt-area {
+	margin-bottom: 0;
+	padding-right: .5em;
+	padding-left: .5em;
+}
+.widget_nje_box_title_link_widget .btn {
+	margin-top: .75em;
+	margin-bottom: .75em;
+	background-color: #000;
+    color: #fff;
+}
+.widget_nje_box_title_link_widget .btn:hover {
+	background-color: #222;
+	color: #fff;
+}
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.25em 1.5em;
+    border-radius: 0.25em;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	background-color: #004b8d !important;
+	text-decoration: none;
+}
+/* add icon that shows that link opens in new tab */
+/* this code only works if FontAwesome is loaded */
+/* 
+moved to theme css
+.widget_nje_box_title_link_widget .website a {
+    text-decoration: none;
+}    
+.widget_nje_box_title_link_widget .website a:after {
+	padding-left: 5px;
+    content: "\f08e";
+    font-family: FontAwesome;
+    font-size: 1em;
+ }*/
